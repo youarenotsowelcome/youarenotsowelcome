@@ -1,6 +1,6 @@
 export default function Horcrux({ onBack }) {
   return (
-    <div className="page" style={{ backgroundImage: "url('/C:\\Users\\rutur\\Desktop\\youarenotsowelcome\\my-website\\public\\horcrux.pdf')" }}>
+    <div className="page" style={{ backgroundImage: "url('/horcrux.jpg')" }}>
       <button className="back-btn" onClick={onBack}>← Back</button>
       <div style={{ background: 'rgba(255,255,255,0.85)', padding: '24px', borderRadius: '12px' }}>
       <p>A Horcrux is a dark magical object used to hide a fragment of a witch or wizard's soul, making them immortal as long as it exists. Voldemort created seven of them.</p>

@@ -1,6 +1,6 @@
 export default function DonaPaula({ onBack, onError }) {
   return (
-    <div className="page" style={{ backgroundImage: "url('/C:\\Users\\rutur\\Desktop\\youarenotsowelcome\\my-website\\public\\donapaula.jpg')" }}>
+    <div className="page" style={{ backgroundImage: "url('/donapaula.jpeg')" }}>
       <button className="back-btn" onClick={onBack}>← Back</button>
       <div style={{ background: 'rgba(255,255,255,0.85)', padding: '24px', borderRadius: '12px' }}>
         <h2>PPWD56 LF48D<br/>Conspiracy Theories</h2>
