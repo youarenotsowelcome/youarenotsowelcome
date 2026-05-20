@@ -1,9 +1,13 @@
 export default function Planets({ onBack }) {
   return (
-    <div className="page">
+    <div className="page" style={{ backgroundImage: "url('/planets.jpg')" }}>
       <button className="back-btn" onClick={onBack}>← Back</button>
-      <h2>Planets</h2>
-      <p>Our solar system has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Each one is unique in size, atmosphere, and distance from the Sun.</p>
+      <div style={{ background: 'rgba(255,255,255,0.85)', padding: '24px', borderRadius: '12px' }}>
+      <h2>PLANETS</h2>
+      <a href="/planets.pdf" download>
+        <button className="download-btn">Download PDF</button>
+      </a>
+      </div>
     </div>
   )
 }

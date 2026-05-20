@@ -35,12 +35,15 @@ export default function App() {
     const query = currentPage.replace('error:', '')
     return (
       <div className="error-page">
-        <p className="error-msg">❌ "{query}" not found. Try: Horcrux, Planets, Cute, Dead, Dona Paula.</p>
+        <p className="error-msg">❌ "{query}" not found.</p>
         <button onClick={() => setCurrentPage('home')}>← Go back</button>
       </div>
     )
   }
 
   const PageComponent = PAGES[currentPage]
-  return <PageComponent onBack={() => setCurrentPage('home')} />
+  return <PageComponent 
+  onBack={() => setCurrentPage('home')} 
+  onError={() => setCurrentPage('error:This page does not exist!')} 
+  />
 }

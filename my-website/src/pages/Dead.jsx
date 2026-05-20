@@ -1,9 +1,14 @@
 export default function Dead({ onBack }) {
   return (
-    <div className="page">
+    <div className="page" style={{ backgroundImage: "url('/dead.jpg')" }}>
       <button className="back-btn" onClick={onBack}>← Back</button>
-      <h2>Dead</h2>
-      <p>Death is the permanent cessation of all biological functions. It has been a central theme in philosophy, religion, art, and science throughout human history.</p>
-    </div>
+      <div style={{ background: 'rgba(255,255,255,0.85)', padding: '24px', borderRadius: '12px' }}>
+      <h2>DEAD</h2>
+      <a href="/dead.pdf" download>
+        <button className="download-btn">Download PDF</button>
+      </a>
+      </div>
+    </div>  
   )
 }
+

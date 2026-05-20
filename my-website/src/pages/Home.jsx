@@ -20,7 +20,8 @@ export default function Home({ onSearch }) {
         />
         <button onClick={handleSubmit}>Search</button>
       </div>
-      <p className="hint">Try: Horcrux, Planets, Cute, Dead, Dona Paula</p>
+      <p  className="hint">Search for any code which you decipher over here6</p>
+
     </div>
   )
 }

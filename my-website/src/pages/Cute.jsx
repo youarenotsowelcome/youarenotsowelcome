@@ -1,9 +1,14 @@
 export default function Cute({ onBack }) {
   return (
-    <div className="page">
+    <div className="page" style={{ backgroundImage: "url('/cute.jpg')" }}>
       <button className="back-btn" onClick={onBack}>← Back</button>
-      <h2>Cute</h2>
-      <p>Cuteness is a subjective quality of attractiveness — often associated with small, soft, and innocent things like puppies, kittens, and babies. Science says we're wired to respond to it!</p>
-    </div>
+      <div style={{ background: 'rgba(255,255,255,0.85)', padding: '24px', borderRadius: '12px' }}>
+      <h2>CUTE</h2>
+      <a href="/cute.pdf" download>
+        <button className="download-btn">Download PDF</button>
+      </a>
+      </div>
+    </div>  
   )
 }
+

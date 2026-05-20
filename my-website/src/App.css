@@ -12,10 +12,12 @@ body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-hei
 }
 
 .title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 32px;
-  letter-spacing: 1px;
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+  color: #ffffff;
 }
 
 .search-box {
@@ -58,20 +60,31 @@ body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-hei
 }
 
 .page {
-  max-width: 600px;
-  margin: 80px auto;
-  padding: 24px;
+  min-height: 100vh;
+  padding: 40px 24px;
+  color: #111;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .page h2 {
   font-size: 28px;
   margin-bottom: 16px;
+  color: #111;
 }
 
 .page p {
   font-size: 16px;
-  color: #aaa;
+  color: #444;
   line-height: 1.8;
+}
+
+.donapaula-title {
+  color: #1a1a1a;
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 4px 8px rgba(0,0,0,0.5);
 }
 
 .back-btn {
@@ -87,6 +100,21 @@ body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-hei
 }
 
 .back-btn:hover { border-color: #666; color: #fff; }
+
+.download-btn {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.download-btn:hover {
+  background: #333;
+}
 
 .error-page {
   display: flex;
