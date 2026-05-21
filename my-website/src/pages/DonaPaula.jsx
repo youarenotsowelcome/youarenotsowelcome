@@ -37,7 +37,7 @@ export default function DonaPaula({ onBack, onError }) {
       </span>
 
       <a 
-        href="/youarenotsowelcome/2stepdecipherment.mpeg" 
+        href="/2stepdecipherment.mpeg" 
         download="2stepdecipherment.mpeg"
         style={{ 
           position: 'absolute',
