@@ -6,6 +6,7 @@ import Cute from './pages/Cute'
 import Dead from './pages/Dead'
 import DonaPaula from './pages/DonaPaula'
 import './App.css'
+import Congrats from './pages/Congrats'
 
 const PAGES = {
   horcrux: Horcrux,
@@ -13,6 +14,7 @@ const PAGES = {
   cute: Cute,
   dead: Dead,
   'dona paula': DonaPaula,
+  'blhnbzjkj': Congrats,
 }
 
 export default function App() {

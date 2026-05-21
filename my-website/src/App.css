@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; }
+body { font-family: Arial, sans-serif; min-height: 100vh; }
 
 .home {
   display: flex;
@@ -9,6 +11,7 @@ body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-hei
   min-height: 100vh;
   padding: 24px;
   text-align: center;
+  background: #0a0a0a;
 }
 
 .title {
@@ -63,10 +66,10 @@ body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-hei
   min-height: 100vh;
   padding: 40px 24px;
   color: #111;
-  background-color: #fff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .page h2 {
